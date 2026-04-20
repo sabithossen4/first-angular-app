@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
   templateUrl: './about.html',
   styleUrl: './about.css',
 })
-export class About {}
+export class About { 
+  name = "About Us";
+  imageUrl = "https://picsum.photos/200";
+  sayHello() {
+  alert("Hello Angular!");
+}
+}

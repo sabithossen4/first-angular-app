@@ -1,9 +1,10 @@
 import { Component } from '@angular/core';
+import { Feature } from './feature/feature';
 
 @Component({
   selector: 'app-home',
   standalone: true,
-  imports: [],
+  imports: [Feature],
   templateUrl: './home.html',
   styleUrl: './home.css',
 })
